@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LabAssignment4.ElementSearchInJaggedArray</StartupObject>
+    <StartupObject>LabAssignment4.HashTable</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ElementSearchInJaggedArray.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="HashTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumOfArrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
